@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { ChevronDown, Mail, Linkedin, Github, ExternalLink, Award, Briefcase, GraduationCap, User, Code, BarChart3, Database, Brain } from 'lucide-react';
+import { ChevronDown, Mail, Linkedin, Github, ExternalLink, Award, Briefcase, GraduationCap, User, Code, BarChart3, Database, Brain, LayoutDashboardIcon, CodeIcon } from 'lucide-react';
 
 function App() {
   const [activeSection, setActiveSection] = useState('home');
@@ -142,12 +142,12 @@ function App() {
                 <div className="text-center p-6 bg-gradient-to-br from-cyan-50 to-cyan-100 rounded-xl">
                   <BarChart3 className="w-10 h-10 text-cyan-600 mx-auto mb-3" />
                   <h4 className="font-bold text-gray-800 text-2xl">Analytics</h4>
-                  <p className="text-m text-gray-600">Power BI, Tableau</p>
+                  <p className="text-m text-gray-600">Power BI</p>
                 </div>
                 <div className="text-center p-6 bg-gradient-to-br from-purple-50 to-purple-100 rounded-xl">
                   <Brain className="w-10 h-10 text-purple-600 mx-auto mb-3" />
                   <h4 className="font-bold text-gray-800 text-2xl">AI/ML</h4>
-                  <p className="text-m text-gray-600">Scikit-learn, TensorFlow</p>
+                  <p className="text-m text-gray-600">Scikit-learn</p>
                 </div>
                 <div className="text-center p-6 bg-gradient-to-br from-green-50 to-green-100 rounded-xl">
                   <Database className="w-10 h-10 text-green-600 mx-auto mb-3" />
@@ -167,7 +167,7 @@ function App() {
           <div className="max-w-6xl mx-auto">
             <h2 className="text-4xl font-bold text-center mb-16 text-gray-800">Featured Projects</h2>
             <div className="grid md:grid-cols-3 gap-8">
-              <div className="group bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2">
+              <div  onClick={() => window.open("https://github.com/Rochinelle/Breast-Cancer-Prediction", "_blank")} className="group bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2">
                 <div className="h-48 bg-gradient-to-br from-pink-400 to-purple-500 p-8 flex items-center justify-center">
                   <Brain className="w-16 h-16 text-white" />
                 </div>
@@ -185,7 +185,7 @@ function App() {
                 </div>
               </div>
 
-              <div className="group bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2">
+              <div  onClick={() => window.open("https://github.com/Rochinelle/Telco-Customer-Churn-Prediction-Analysis?tab=readme-ov-file", "_blank")} className="group bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2">
                 <div className="h-48 bg-gradient-to-br from-blue-400 to-cyan-500 p-8 flex items-center justify-center">
                   <BarChart3 className="w-16 h-16 text-white" />
                 </div>
@@ -197,13 +197,14 @@ function App() {
                   </p>
                   <div className="flex flex-wrap gap-2 mb-4">
                     <span className="px-3 py-1 bg-blue-100 text-blue-800 text-sm rounded-full">Python</span>
-                    <span className="px-3 py-1 bg-orange-100 text-orange-800 text-sm rounded-full">XGBoost</span>
+                    <span className="px-3 py-1 bg-orange-100 text-orange-800 text-sm rounded-full">ML models</span>
                     <span className="px-3 py-1 bg-red-100 text-red-800 text-sm rounded-full">Matplotlib</span>
                   </div>
                 </div>
               </div>
 
-              <div className="group bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2">
+              <div  onClick={() => window.open("https://github.com/Rochinelle/Telco-Customer-Churn-Prediction-Analysis/blob/main/Telco-dashboard.jpeg", "_blank")}  className="group bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2">
+                
                 <div className="h-48 bg-gradient-to-br from-yellow-400 to-orange-500 p-8 flex items-center justify-center">
                   <Database className="w-16 h-16 text-white" />
                 </div>
@@ -217,6 +218,24 @@ function App() {
                     <span className="px-3 py-1 bg-yellow-100 text-yellow-800 text-sm rounded-full">Power BI</span>
                     <span className="px-3 py-1 bg-blue-100 text-blue-800 text-sm rounded-full">DAX</span>
                     <span className="px-3 py-1 bg-green-100 text-green-800 text-sm rounded-full">SQL</span>
+                  </div>
+                </div>
+              </div>
+
+              <div  onClick={() => window.open("https://github.com/Rochinelle/Telco-Customer-Churn-Prediction-Analysis/blob/main/Telco-dashboard.jpeg", "_blank")} className="group bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2">
+                <div className="h-48 bg-gradient-to-br from-purple-300 to-purple-500 p-8 flex items-center justify-center">
+                  <CodeIcon className="w-16 h-16 text-white" />
+                </div>
+                <div className="p-6">
+                  <h3 className="text-xl font-bold mb-3 text-gray-800">DataViz app</h3>
+                  <p className="text-gray-600 mb-4 leading-relaxed">
+                    Full-stack data visualization tool that automatically transforms user-uploaded datasets into interactive dashboards and intelligent insights.
+                     it empowers users to explore their data without writing a single line of code.
+                  </p>
+                  <div className="flex flex-wrap gap-2 mb-4">
+                    <span className="px-3 py-1 bg-yellow-100 text-yellow-800 text-sm rounded-full">React</span>
+                    <span className="px-3 py-1 bg-blue-100 text-blue-800 text-sm rounded-full">FlaskAPI</span>
+                    <span className="px-3 py-1 bg-green-100 text-green-800 text-sm rounded-full">SQLAlchemy</span>
                   </div>
                 </div>
               </div>
