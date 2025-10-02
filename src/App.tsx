@@ -222,7 +222,7 @@ function App() {
                 </div>
               </div>
 
-              <div  onClick={() => window.open("https://rochinelle.github.io/dashboard", "_blank")} className="group bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2">
+              <div  onClick={() => window.open("https://rochinelle.github.io/DataViz/", "_blank")} className="group bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2">
                 <div className="h-48 bg-gradient-to-br from-purple-300 to-purple-500 p-8 flex items-center justify-center">
                   <CodeIcon className="w-16 h-16 text-white" />
                 </div>
