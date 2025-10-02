@@ -70,7 +70,7 @@ function App() {
             <div className="relative max-w-xs mx-auto mb-8">
               <div className="aspect-square bg-gradient-to-br from-blue-400 to-cyan-400 rounded-full overflow-hidden shadow-2xl">
                 <img 
-                  src="/image/me1.jpg" 
+                  src="/portfolio/image/me1.jpg" 
                   alt="Makoukam Yvana Rochinelle" 
                   className="w-full h-full object-cover"
                 />
