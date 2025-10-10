@@ -264,6 +264,14 @@ function App() {
                       Developed Python applications and scripts, worked on data processing pipelines, 
                       and contributed to various software development projects using modern Python frameworks and libraries.
                     </p>
+                    <a
+                      href="https://drive.google.com/file/d/1lsrMyQ17YIeduyxPf_YASoEd_s7QdbFY/view?usp=sharing"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-sm text-blue-700 hover:underline font-medium"
+                    >
+                      View Certificate →
+                    </a>
                   </div>
                 </div>
               </div>
@@ -280,6 +288,14 @@ function App() {
                       Analyzed complex datasets, created compelling visualizations, and provided data-driven 
                       insights to support business decision-making processes through statistical analysis and reporting.
                     </p>
+                    <a
+                      href="https://drive.google.com/file/d/1jz3Y84JldVu8BzxhADuXknZ2ble9dvqQ/view?usp=sharing"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-sm text-cyan-700 hover:underline font-medium"
+                    >
+                      View Certificate →
+                    </a>
                   </div>
                 </div>
               </div>
@@ -295,6 +311,14 @@ function App() {
                       Analyzed complex datasets, created compelling visualizations, and provided data-driven 
                       insights to support business decision-making processes through statistical analysis and reporting.
                     </p>
+                      <a
+                        href="https://drive.google.com/drive/folders/1QPQu_xGT1zy6OuRbUjqTKycxgXMMA61X?usp=sharing"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-sm text-purple-700 hover:underline font-medium"
+                      >
+                        View Certificate →
+                      </a>
                   </div>
                 </div>
               </div>
@@ -325,24 +349,56 @@ function App() {
                 <Award className="w-8 h-8 text-blue-500 mb-3" />
                 <h4 className="font-bold text-gray-800 mb-2">AI Workshop</h4>
                 <p className="text-gray-600 text-sm">Advanced artificial intelligence concepts and applications</p>
+                <a
+                        href="https://drive.google.com/drive/folders/14hemnaotD24RXKs3UJt9R7bIOPyc-qnV?usp=sharing"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-sm text-purple-700 hover:underline font-medium"
+                      >
+                        View Certificate →
+                      </a>
               </div>
 
               <div className="bg-white p-6 rounded-xl shadow-lg border-t-4 border-green-500 hover:shadow-xl transition-shadow duration-300">
                 <Award className="w-8 h-8 text-green-500 mb-3" />
                 <h4 className="font-bold text-gray-800 mb-2">Introduction to AI</h4>
                 <p className="text-gray-600 text-sm">Great Learning • Fundamental AI principles and techniques</p>
+                <a
+                        href="https://drive.google.com/file/d/1qWtZtTXhXcVRNPtRmr9iW-zai82cZOtr/view?usp=sharing"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-sm text-purple-700 hover:underline font-medium"
+                      >
+                        View Certificate →
+                      </a>
               </div>
 
               <div className="bg-white p-6 rounded-xl shadow-lg border-t-4 border-purple-500 hover:shadow-xl transition-shadow duration-300">
                 <Award className="w-8 h-8 text-purple-500 mb-3" />
                 <h4 className="font-bold text-gray-800 mb-2">Self Awareness</h4>
                 <p className="text-gray-600 text-sm">Coursera • Personal development and emotional intelligence</p>
+                <a
+                        href="https://drive.google.com/file/d/1dvGrsttdEh0oA-33CRL_gS3L5_nyowN8/view?usp=sharing"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-sm text-purple-700 hover:underline font-medium"
+                      >
+                        View Certificate →
+                      </a>
               </div>
 
               <div className="bg-white p-6 rounded-xl shadow-lg border-t-4 border-orange-500 hover:shadow-xl transition-shadow duration-300">
                 <Award className="w-8 h-8 text-orange-500 mb-3" />
                 <h4 className="font-bold text-gray-800 mb-2">Leadership Skills</h4>
-                <p className="text-gray-600 text-sm">HEC Paris • Building effective leadership capabilities</p>
+                <p className="text-gray-600 text-sm">HEC Paris (Coursera) • Building effective leadership capabilities</p>
+                <a
+                        href="https://drive.google.com/file/d/1r3IhjU2ijrQPtT0unXY6hoU0-m5cPI0E/view?usp=sharing"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-sm text-purple-700 hover:underline font-medium"
+                      >
+                        View Certificate →
+                      </a>
               </div>
             </div>
           </div>
