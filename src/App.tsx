@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { ChevronDown, Mail, Linkedin, Github, ExternalLink, Award, Briefcase, GraduationCap, User, Code, BarChart3, Database, Brain, LayoutDashboardIcon, CodeIcon } from 'lucide-react';
+import { ChevronDown, Mail, Linkedin, Github, ExternalLink, Award, Briefcase, GraduationCap, User, Code, BarChart3, Database, Brain, LayoutDashboardIcon, CodeIcon, Rocket } from 'lucide-react';
 
 function App() {
   const [activeSection, setActiveSection] = useState('home');
@@ -243,6 +243,34 @@ function App() {
           </div>
         </div>
       </section>
+
+      {/*  Collaborated projects */}
+      <section id="collaborated-projects" className="py-20 bg-gray-50">
+           <div className="container mx-auto px-6">
+          <div className="max-w-6xl mx-auto">
+            <h2 className="text-4xl font-bold text-center mb-16 text-gray-800">Collaborated Projects</h2>
+            <div className="grid md:grid-cols-3 gap-8">
+              <div  onClick={() => window.open("https://github.com/Rochinelle/advan", "_blank")} className="group bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2">
+                <div className="h-48 bg-gradient-to-br from-red-300 to-blue-500 p-8 flex items-center justify-center">
+                  <Rocket className="w-16 h-16 text-white" />
+                </div>
+                <div className="p-6">
+                  <h3 className="text-xl font-bold mb-3 text-gray-800">Advan</h3>
+                  <p className="text-gray-600 mb-4 leading-relaxed">
+                    Advan is a web platform designed to connect students and professionals with personalized opportunities for scholarships, internships, mentorship, and skill development. It features an intelligent talent pipeline system that links schools and companies, 
+                    a gap tracker to identify skill gaps, and tools for interview preparation and educational advancement.
+                  </p>
+                  <div className="flex flex-wrap gap-2 mb-4">
+                    <span className="px-3 py-1 bg-blue-100 text-blue-800 text-sm rounded-full">ollama</span>
+                    <span className="px-3 py-1 bg-green-100 text-green-800 text-sm rounded-full">Node js</span>
+                    <span className="px-3 py-1 bg-purple-100 text-purple-800 text-sm rounded-full">React</span>
+                  </div>
+                </div>
+              </div>
+             </div>
+          </div>
+        </div>
+        </section>
 
       {/* Experience Section */}
       <section id="experience" className="py-20 bg-white">
